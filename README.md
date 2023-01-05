@@ -79,7 +79,7 @@ Created a survey form for a hospital survey project.
 
 - Open your Terminal/Powershell or any command line interface you use, then navigate to your created above directory or the directory you'll like to clone this project directory.
 - Type `git clone git clone https://github.com/NahnahAJ/survey-form.git` if your're using https with git or `git@github.com:NahnahAJ/survey-form.git` if your preferred is ssh and hit enter.
-- Navigate to the `construction-page` directory on your local computer in your above chosen directory and open the `index.html` file.
+- Navigate to the `feature` directory on your local computer in your above chosen directory and open the `index.html` file.
 
 ### Usage
 
