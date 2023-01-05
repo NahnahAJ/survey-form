@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Havier medical services survey form</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body>
+    <h1 id="title">HAVIER MEDICAL SERVICES SURVERY FORM</h1>
+        <p id="description">Fill in this survey to help us treat you better.</p>
+
+        <form id="survey-form">
+            <div> 
+               
+                <label id="name-label">Name
+                <input type="text" id="name" placeholder="Enter your name">
+                </label>
+            </div>
+            <div>
+               
+                <label id="email-label">Email
+                <input type="email" id="email" placeholder="Enter your email">
+                </label>
+            </div>
+            <div>
+                <label id="number-label">Age
+                <input type="number" id="number" placeholder="Choose Age" min="18" max="60">
+                </label>
+            </div>
+            <div>
+                <p>Which option best describes your current role?</p>
+                <select id="dropdown">
+                    <option disabled>Select an option</option>
+                    <option>Student</option>
+                    <option>Full Time Job</option>
+                    <option>Full Time Leaner</option>
+                    <option>Prefer Not to say</option>
+                    <option>Other</option>
+                </select>
+            </div>
+            <div class="input-group">
+                <p>Would you recommend Havier Medical Service to a friend?</p>
+                <div>
+                    <input type="radio" name="recommend" value="1" >Definitely
+                </div>
+                <div>
+                    <input type="radio" name="recommend" value="1">Maybe
+                </div>
+                <div>
+                    <input type="radio" name="recommend" value="1">Not Sure
+                </div>
+            </div>
+
+            <div class="input-group">
+                <p>What is your favorite feature of Havier Medical Service?</p>
+                <select id="dropdown">
+                    <option disabled>Select an option</option>
+                    <option>Eye Operation</option>
+                    <option>X-ray check</option>
+                    <option>HB test</option>
+                </select>
+            </div>
+
+            <div class="input-group">
+                <p>What would you like to see improved? (Check all that apply)</p>
+                <div>
+                    <input type="checkbox" value="1"> Customer services
+                </div>
+                <div>
+                    <input type="checkbox" value="2"> Waiting time
+                </div>
+                <div>
+                    <input type="checkbox" value="3"> Medical fees
+                </div>
+                <div>
+                    <input type="checkbox" value="4"> Improved Elderly care
+                </div>
+            </div>
+
+            <div>
+                <p>Any comments or suggestions?</p>
+                <textarea placeholder="Enter your suggestion" rows="5"></textarea>
+            </div>
+
+            <button id="submit">Submit</button>
+        </form>
+  </body>
+</html>
