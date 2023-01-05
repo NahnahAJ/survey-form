@@ -67,26 +67,23 @@ Created a survey form for a hospital survey project.
 
 ### Prerequisites
 
-In order to run this project you need:
-
-- A Desktop or Laptop Computer running on with Windows, Mac OS or Linux operating system.
-- Ruby installed on the Computer
+- Have a Desktop or Laptop Computer running on with Windows, Mac OS or Linux operating system.
+- Have git installed on the Computer
+- Have a browser install on the Computer
 
 ### Setup
 
-Clone this repository to your desired folder:
+- If it suits you, on your local computer, create a directory in your preferred location (e.g in the Desktop or Document directory)
 
-- `git clone https://github.com/NahnahAJ/survey-form.git` if your're using https or git 
-- `git@github.com:NahnahAJ/survey-form.git` if you prefer ssh and hit enter.
-- create a directory in your preferred location (e.g in the Desktop or Document directory)
+### Install
 
-### Run tests
+- Open your Terminal/Powershell or any command line interface you use, then navigate to your created above directory or the directory you'll like to clone this project directory.
+- Type `git clone git clone https://github.com/NahnahAJ/survey-form.git` if your're using https with git or `git@github.com:NahnahAJ/survey-form.git` if your preferred is ssh and hit enter.
+- Navigate to the `construction-page` directory on your local computer in your above chosen directory and open the `index.html` file.
 
-To run tests, run the following command:
+### Usage
 
-- `npm run test`
-- This will run all tests on your local machine
-
+- You can view the HTML document in your preferred or default browser.  
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
