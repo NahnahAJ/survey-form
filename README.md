@@ -33,19 +33,19 @@
 # 📖 Survey Form <a name="about-project"></a>
 
 **Survey Form** 
-Created a survey form for a hopital survey project.
+Created a survey form for a hospital survey project.
 
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
 
 <details>
-<summary>Front End</summary>
+<summary>Client</summary>
   <ul>
-    <li><a href="https://www.ruby.org/">HTML</a></li>
+    <li><a href="https://www.html.org/">HTML</a></li>
   </ul>
     <ul>
-    <li><a href="https://www.ruby.org/">CSS</a></li>
+    <li><a href="https://www.css.org/">CSS</a></li>
   </ul>
 </details>
 
@@ -76,8 +76,8 @@ In order to run this project you need:
 
 Clone this repository to your desired folder:
 
-- `git clone https://github.com/NahnahAJ/OOP-school-library.git` if your're using https or git 
-- `git@github.com:NahnahAJ/OOP-school-library.git` if you prefer ssh and hit enter.
+- `git clone https://github.com/NahnahAJ/survey-form.git` if your're using https or git 
+- `git@github.com:NahnahAJ/survey-form.git` if you prefer ssh and hit enter.
 - create a directory in your preferred location (e.g in the Desktop or Document directory)
 
 ### Run tests
